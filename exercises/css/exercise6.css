@@ -3,9 +3,7 @@ p {
     padding-left: 1.3rem;
     padding-right: 1.3rem;
     line-height: 1.5rem;
-    font-family: "Lavishly Yours", serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
@@ -13,6 +11,9 @@ h1 {
     background-color: #000000;
     padding-left: 1.3rem;
     text-transform: uppercase;
+    font-family: "Lavishly Yours", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h2,h3,p,ul,footer {
