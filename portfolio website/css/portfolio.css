@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    min-height: 100vh;
+}
+
+/* ALL NAVIGATION BAR */
+
+nav {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:  1;
+    grid-column-end: 13;
+    background-color: #08121F;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+nav li {
+    list-style-type: none;
+    color: #7EA1C4;
+    border: 2px solid #08121F;
+    padding: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7EA1C4;
+}
+
+nav li:hover {
+    background-color: #7EA1C4;
+}
+
+nav li:hover a {
+    color: #08121F;
+}
+
+nav img{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 0;
+    height: 65px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 567px){
+    .wrapper{
+        grid-template-rows: 146px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    nav li{
+        background-color: #08121F;
+    }
+
+    nav img{
+        height: 130px;
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 405px){
+    .wrapper{
+        grid-template-rows: 292px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    nav img{
+        margin-left: 25px;
+        margin-top: 60px;
+        height: 160px;
+    }
+}
+
+
+/* All Body THEME */
+body {
+    background-color: #7EA1C4;
+    color: #08121F;
+}
+
+/* HOMEPAGE */
+/*
+.homepage_nav li{
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.homepage_nav {
+    grid-row-start: 6;
+    grid-row-end: 9;
+    grid-column-start:  1;
+    grid-column-end: 13;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+}
+*/
+/* Samples */
+.Class-Exercises {
+    grid-row-start: 3;
+    grid-row-end: 12;
+    grid-column-start:  2;
+    grid-column-end: 5;
+    border: 1px solid black;
+    background-color: white;
+}
