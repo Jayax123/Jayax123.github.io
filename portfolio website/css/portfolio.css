@@ -26,7 +26,7 @@ nav {
     font-family: "Roboto", sans-serif;
 }
 
-@media (max-width: 468px){
+@media (max-width: 600px){
     nav{
         display: flex;
         justify-content: center;
@@ -35,7 +35,7 @@ nav {
     }
 
     nav img{
-        height: 65px;
+        height: 130px;
         margin: 2.8px;
         float: center;
     }
@@ -95,39 +95,40 @@ nav {
     }
 }
 
-@media (min-width: 468px){
+@media (min-width: 600px){
     nav {
         display: flex;
         align-items: center;
       }
     
-      nav img {
+    nav img {
         height: 65px;
         margin: 2px;
         margin-left: 5px;
-      }
-      .sidenav {
+    }
+
+    .sidenav {
         display: flex;
         margin-left: auto;
-      }
+    }
     
-      .sidenav a {
+    .sidenav a {
         text-decoration: none;
         color: #7EA1C4;
         padding: 25px;
         font-weight: normal;
         border: 2px solid #08121F;
-      }
+    }
     
-      .sidenav a:hover {
+    .sidenav a:hover {
         background-color: #7EA1C4;
         color: #08121F;
-      }
+    }
     
-      .closebtn,
-      .sidenav span {
+    .closebtn,
+    .sidenav span {
         display: none;
-      }
+    }
 }
 
 /* FOOTER */
@@ -158,11 +159,11 @@ footer li{
 }
 
 footer #GMail, footer #LINKEDIN, footer #GITHUB {
-    background-size: 25px 25px;
+    background-size: 50px 50px;
     background-repeat: no-repeat;
     display: block;
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     text-indent: -9999px;
 }
 
@@ -185,6 +186,16 @@ footer p{
     margin: 0;
     padding: 0;
     margin-right: 8%;
+}
+
+@media (max-width: 600px){
+    footer p {
+        display: none;
+    }
+
+    footer {
+        justify-content: center;
+    }
 }
 
 /* HOMEPAGE */
@@ -328,7 +339,7 @@ footer p{
     display: block;
 }
 
-@media (min-width: 468px) {
+@media (min-width: 600px) {
     .Biograghy {
         grid-row-start: 4;
         grid-row-end: 13;
@@ -347,7 +358,7 @@ footer p{
     }
 }
 
-@media (max-width: 468px){
+@media (max-width: 600px){
     #Biograghy-Image {
         border-bottom: 10px solid #7EA1C4;
         grid-row-start: 3;
@@ -355,6 +366,7 @@ footer p{
         grid-column-start:  2;
         grid-column-end: 13;
         width: 100%;
+        border-top: 5px solid #7EA1C4;
     }
 
     .Biograghy{
@@ -362,6 +374,7 @@ footer p{
         grid-row-end: 11;
         grid-column-start:  2;
         grid-column-end: 13; 
+        border-bottom: 5px solid #7EA1C4;
     }
 }
 
