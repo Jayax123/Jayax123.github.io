@@ -381,13 +381,12 @@ footer p{
 }
 
 .resume hr {
-    color: #08121F;
+    border: none;
+    height: 2px;
     background-color: #08121F;
-    border-color: #08121F;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 0 15px;
+    width: auto;
+    display: block;
 }
 
 #text_center {
@@ -419,4 +418,8 @@ footer p{
 
 .resumea a:visited {
     color: #4748B5;
+}
+
+.resume li{
+    margin: 0;
 }
