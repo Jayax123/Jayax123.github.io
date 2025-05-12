@@ -26,7 +26,7 @@ nav {
     font-family: "Roboto", sans-serif;
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     nav{
         display: flex;
         justify-content: center;
@@ -95,7 +95,7 @@ nav {
     }
 }
 
-@media (min-width: 767px){
+@media (min-width: 768px) {
     nav {
         display: flex;
         align-items: center;
@@ -159,11 +159,11 @@ footer li{
 }
 
 footer #GMail, footer #LINKEDIN, footer #GITHUB {
-    background-size: 50px 50px;
+    background-size: 25px 25px;
     background-repeat: no-repeat;
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     text-indent: -9999px;
 }
 
@@ -188,13 +188,19 @@ footer p{
     margin-right: 8%;
 }
 
-@media (max-width: 600px){
+@media (max-width: 767px) {
     footer p {
         display: none;
     }
 
     footer {
         justify-content: center;
+    }
+
+    footer #GMail, footer #LINKEDIN, footer #GITHUB {
+        background-size: 50px 50px;
+        width: 50px;
+        height: 50px;
     }
 }
 
@@ -339,7 +345,7 @@ footer p{
     display: block;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .Biograghy {
         grid-row-start: 4;
         grid-row-end: 13;
@@ -358,7 +364,7 @@ footer p{
     }
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     #Biograghy-Image {
         border-bottom: 10px solid #7EA1C4;
         grid-row-start: 3;
