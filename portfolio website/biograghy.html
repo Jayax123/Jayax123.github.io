@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Biograghy</title>
+    <link href="css/portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <img src="images/Logo.png" alt='Letters "JO" in cursive'>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="homepage.html">Home</a>
+                <a href="skills.html">Skills</a>
+                <a href="resume.html">Resume</a>
+                <a href="biograghy.html">About</a>
+            </div>
+
+            <span onclick="openNav()"></span>
+
+            <script>
+                window.addEventListener("resize", function () {
+                    if (window.innerWidth > 767) {
+                        document.getElementById("mySidenav").style.width = "auto";
+                    } else {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                });
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+        </nav>
+    <div class="Biograghy">
+            <header>
+            <h1>About Me</h1>
+            </header>
+            <p>I am Jaydon Ongley. I enjoy writing, video games, D&D, and many other things! I am currently learning technical writing and have experience in various programming languages and skills relevant to the field. I also have a passion for technical writing, especially for creating visually engaging documents while maintaining accessibility for all readers.</p>
+    </div>
+    <img id="Biograghy-Image" src="images/IMG_2838.png" alt="A young man with short brown hair wearing a white dress shirt and a light gold tie, standing in front of a plain light-colored wall, smiling at the camera.">
+    <footer>
+         <ul>
+            <li><a id="GMail" href="mailto:Jongley@umass.edu" target="_blank"></a></li>
+            <li><a id="LINKEDIN" href="https://www.linkedin.com/in/jaydon-ongley-933b05277/" target="_blank">LinkedIn</a></li>
+            <li><a id="GITHUB" href="https://github.com/Jayax123" target="_blank"></a></li>
+        </ul>
+        <p>2025 Jaydon Ongley</p>
+    </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Skills</title>
+    <link href="css/portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <img src="images/Logo.png" alt='Letters "JO" in cursive'>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="homepage.html">Home</a>
+                <a href="skills.html">Skills</a>
+                <a href="resume.html">Resume</a>
+                <a href="biograghy.html">About</a>
+            </div>
+
+            <span onclick="openNav()"></span>
+
+            <script>
+                window.addEventListener("resize", function () {
+                    if (window.innerWidth > 767) {
+                        document.getElementById("mySidenav").style.width = "auto";
+                    } else {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                });
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+        </nav>
+    <div class="Class-Exercises">
+        <h2>HTML/&#8203;CSS</h2>
+        <p>I have a solid foundation in both HTML and CSS. I started with small personal projects that primarily relied on external assets, and as I took classes and expanded my knowledge, I learned how to handle a wider range of tasks independently.</p>
+        <a href="html_exercises.html">HTML Exercises</a>
+    </div>
+
+    <div class="Writing-Samples">
+        <h2>Creative Writing</h2>
+        <p>I've been reading and writing regularly since around middle school, though interestingly, I didn’t enjoy either when I was younger. Over time, both became a bigger part of my life, eventually leading me to major in creative writing to pursue them not just as passions, but as a profession.</p>
+        <a href="writing_samples.html">Writing Samples</a>
+    </div>
+
+    <div class="Coding-Exercises">
+        <h2>Coding</h2>
+        <p>I didn’t gain a solid understanding of coding until college. I had always been interested in learning more about it, but I lacked the resources to truly dive in until then. Now, in addition to my knowledge of HTML and CSS, I also have experience with Python, Java, and some C.</p>
+        <a href="coding_excercises.html">Coding Exercises</a>
+    </div>
+
+    <footer id="skills_footer">
+         <ul>
+            <li><a id="GMail" href="Jayongley@gmail.com" target="_blank"></a></li>
+            <li><a id="LINKEDIN" href="https://www.linkedin.com/in/jaydon-ongley-933b05277/" target="_blank">LinkedIn</a></li>
+            <li><a id="GITHUB" href="https://github.com/Jayax123" target="_blank"></a></li>
+        </ul>
+        <p>2025 Jaydon Ongley</p>
+    </footer>
+    </div>
+</body>
+</html>

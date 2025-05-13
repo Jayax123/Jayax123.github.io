@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Coding Exercises</title>
+    <link href="css/portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <img src="images/Logo.png" alt='Letters "JO" in cursive'>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="homepage.html">Home</a>
+                <a href="skills.html">Skills</a>
+                <a href="resume.html">Resume</a>
+                <a href="biograghy.html">About</a>
+            </div>
+
+            <span onclick="openNav()"></span>
+
+            <script>
+                window.addEventListener("resize", function () {
+                    if (window.innerWidth > 767) {
+                        document.getElementById("mySidenav").style.width = "auto";
+                    } else {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                });
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+        </nav>
+    
+        <div class="Assignment_3">
+            <h2>Assign&#8203;ment 3:&#8203; Emplo&#8203;yee Arrays</h2>
+            <p>I used various built-in array structures in Java to efficiently manipulate a list of employees. The project involved working with employee data, implementing classes, and performing operations such as updating, accessing, and organizing that data in an optimized way.</p>
+            <a href="./portfolio_works/assignment3" download>Check-in #1</a>
+        </div>
+
+        <div class="Assignment_4">
+            <h2>Assign&#8203;ment 4:&#8203; Array&#8203;List Services</h2>
+            <p>This assignment was a practice in using ArrayLists in Java. It focused primarily on problem-solving by following provided instructions and building on existing code scaffolding, applying concepts and techniques learned in class.</p>
+            <a href="./portfolio_works/Object_4" download>Check-in #2</a>
+        </div>
+
+        <div class="Assignment_5">
+            <h2>Assign&#8203;ment 5:&#8203; Maze Search</h2>
+            <p>I used various skills learned in class to develop code that solves a maze using a search algorithm. The program explores all possible solutions and identifies the most efficient path.</p>
+            <a href="./portfolio_works/Object_5" download>Check-in #3</a>
+        </div>
+
+    <footer>
+         <ul>
+            <li><a id="GMail" href="Jayongley@gmail.com" target="_blank"></a></li>
+            <li><a id="LINKEDIN" href="https://www.linkedin.com/in/jaydon-ongley-933b05277/" target="_blank">LinkedIn</a></li>
+            <li><a id="GITHUB" href="https://github.com/Jayax123" target="_blank"></a></li>
+        </ul>
+        <p>2025 Jaydon Ongley</p>
+    </footer>
+    </div>
+</body>
+</html>
