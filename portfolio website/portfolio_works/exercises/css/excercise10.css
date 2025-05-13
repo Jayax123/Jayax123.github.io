@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+main {
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 12px;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    background-color: black;
+    margin: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgrey;
+    padding: 25px;
+    border: 1px solid white;
+}
+
+nav a:hover {
+    color: palegoldenrod;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 25px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: black;
+    color: lightgrey;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 1099999fr;
+}
+
+h1 {
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+h1:active{
+    color: black;
+}
