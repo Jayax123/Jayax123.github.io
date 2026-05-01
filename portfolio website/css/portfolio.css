@@ -464,6 +464,10 @@ nav {
             margin-top: 3px;
             margin-bottom: 3px;
         }
+
+        .align_right {
+            text-align: right;
+        }
         
         #space_bottom {
             margin-top: 2px;
